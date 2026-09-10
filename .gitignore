@@ -1,0 +1,23 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+!.env.example
+!.env.*.example
+.DS_Store
+
+# Local credentials and private key material. Public fixture certificates may
+# remain tracked under backend/fixtures/.
+*.key
+*.key.pem
+*.pem.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials.local.*
+credentials.json
+token.local*
+*.token
+**/secrets/
